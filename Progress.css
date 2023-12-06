@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  .offer-section {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .offer-box {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .monthly {
+    background-color: #ffcc00; /* Yellow */
+    color: #333;
+  }
+  
+  .yearly {
+    background-color: #33cc33; /* Green */
+    color: #fff;
+  }
+  
+  .student {
+    background-color: #ff6666; /* Red */
+    color: #fff;
+  }
+  
+  /* Additional styling as needed */
+  

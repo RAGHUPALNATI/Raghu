@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    /* Header styles */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .about-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .trainers {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .trainer {
+    margin: 0 20px;
+  }
+  .trainer img,
+.facility img {
+  width: 300px; /* Set the desired width for the images */
+  height: 200px; /* Set the desired height for the images */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+  border-radius: 8px; /* Optionally, add some border radius for a softer look */
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+  .facilities {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .facility {
+    margin: 0 20px;
+  }
+  
+  /* Additional styling for images, headings, and paragraphs can be added as needed */
+  
